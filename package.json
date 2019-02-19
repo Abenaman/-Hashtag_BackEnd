@@ -1,0 +1,29 @@
+{
+  "name": "eliko_back_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Abenezer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "find-hashtags": "^1.0.1",
+    "fs": "0.0.1-security",
+    "hashtag-count": "^1.1.0",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.2",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.2.0",
+    "twitter": "^1.7.1"
+  }
+}
